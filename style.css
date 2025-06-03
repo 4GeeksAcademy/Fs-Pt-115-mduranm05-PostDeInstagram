@@ -5,16 +5,51 @@ body {
 
 .post-instagram {
     width: 400px;
-    backgraund-color: white;
+    background-color: white;
     margin: 0 auto;
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.icons2 {
+.icons i:first-child{
+    margin-right: 3px;
+    font-size: 30px;
+}
+
+.icons i:last-child{
+    font-size: 25px;
+}
+
+.post-header{
+    padding: 10px;
+}
+.post-header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left-text{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+}
+.post-footer{
+    padding: 10px;
+}
+.icons-footer {
     display: flex;
     justify-content: space-between;
+}
+.icons-footer i{
+    font-size: 20px;
+    
+}
+.icons-footer-left{
+    display: flex;
+    gap: 10px;
 }
