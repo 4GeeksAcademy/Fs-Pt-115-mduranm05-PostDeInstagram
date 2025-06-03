@@ -1,0 +1,20 @@
+body {
+    background: rgb(192, 190, 190);
+    
+}
+
+.post-instagram {
+    width: 400px;
+    backgraund-color: white;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons2 {
+    display: flex;
+    justify-content: space-between;
+}
